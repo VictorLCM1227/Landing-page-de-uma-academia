@@ -82,3 +82,17 @@ section#home p {
 #reserve {
     margin-left: 20px;
 }
+
+h2 {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+div.cards {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 30px;
+}

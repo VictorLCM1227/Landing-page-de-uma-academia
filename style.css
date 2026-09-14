@@ -35,7 +35,7 @@ nav#meio > a {
 }
 
 nav#meio a:hover {
-    color: rgb(255, 132, 132);
+    color: rgb(255, 0, 0);
     text-decoration: underline;
 }
 
@@ -62,6 +62,8 @@ nav#meio a:hover {
 section#home {
     color: white;
     padding: 100px;
+    padding-bottom: 250px;
+    padding-top: 150px;
 }
 
 .destaque {
@@ -77,6 +79,7 @@ section#home h1 {
 
 section#home p {
     margin: 20px;
+    font-weight: bolder;
 }
 
 #reserve {
@@ -91,8 +94,21 @@ h2 {
 }
 
 div.cards {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: auto;
     padding: 30px;
-    margin: 30px;
+}
+
+div.cards img {
+    border-radius: 10px;
+}
+
+section#modalidades {
+    background-color: black;
+}
+
+.claro {
+    color: white;
 }
